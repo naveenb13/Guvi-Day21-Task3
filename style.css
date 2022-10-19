@@ -1,9 +1,9 @@
 body {
-    width: 99%;
-    height: 98.4vh;
+    width: 100%;
+    height: 100vh;
     background: url(image3.gif);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     font-family: cursive;
 }
 
@@ -64,9 +64,40 @@ body {
 }
 
 .img1 {
-    padding: 10px;
+    text-align: center;
 }
 
 .text1 {
     text-align: center;
 }
+
+.card2 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cardHeader{
+    text-align: center;
+}
+
+.alert{
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+}
+
+.alertCenter{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 670px) {
+    body {
+      height: 200vh;
+    }
+  }
