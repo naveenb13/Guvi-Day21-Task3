@@ -1,0 +1,72 @@
+body {
+    width: 99%;
+    height: 98.4vh;
+    background: url(image3.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.navbar1 {
+    text-align: center;
+}
+
+.heading1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-weight: bolder;
+}
+
+.subheading1 {
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.search1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input1 {
+    border: 5px solid lightpink;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+
+.button1 {
+    color: black;
+    background-color: lightpink;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 5px solid white;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.button1:hover {
+    color: black;
+    background-color: white;
+    border: 5px solid lightpink;
+}
+
+.card1 {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    padding: 10px;
+}
+
+.text1 {
+    text-align: center;
+}
